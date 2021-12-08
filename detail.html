@@ -11,12 +11,37 @@
 <body>
     <div id="main-div">
         <div id="header">
-            <img src="assests\images\logo.png" alt="logo" height="200px" width="150px">
+           <a href="index.html"><img src="assests\images\logo.png" alt="logo" height="200px" width="150px"></a>
             <a href="login.html" target="_blank">Login</a>
         </div>
         <div id="content">
             <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
-            <div><a href="payment.html">Book now</a></div>
+            <div>
+                <form action="payment.html" method="get">
+                    <div>
+                        <label>Adults:</label>
+                        <input type="text" name="adult" min="1" required>
+                    </div>
+                    <div>
+                        <label>Name:</label>
+                        <input type="text" name="name" required>
+                    </div>
+                    <div>
+                        <label>From Date:</label>
+                        <input type="date" name="fromDate" required>
+                    </div>
+                    <div>
+                        <label>To Date:</label>
+                        <input type="date" name="toDate" required>
+                    </div>
+                    <div>
+                        <label>Total:</label>
+                        <input type="text" name="price" readonly>
+                    
+                    </div>
+                    <button type="submit">Book Now</button>
+                </form>
+            </div>
             <h2>RADDISON BLU HOTEL</h2>
             <div>RATING</div><br>
             <div>5 star</div><br>
