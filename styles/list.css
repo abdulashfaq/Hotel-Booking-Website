@@ -1,0 +1,21 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main-div{
+    height: 100%;
+    width: 100%;
+}
+.logo{
+    height:60px;
+    width: 60px;
+    border-radius: 100%;
+}
+.hotel-images{
+    height: 200px;
+    width: 250px;
+}
+.social-media-images{
+    height: 20px;
+    width: 22px;
+}

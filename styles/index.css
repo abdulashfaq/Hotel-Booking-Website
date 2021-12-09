@@ -1,0 +1,21 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main-div{
+    height: 100%;
+    width: 100%;
+}
+.logo
+{
+    height: 60px;
+    width: 60px;
+}
+.city-images{
+    height: 150px;
+    width: 150px;
+}
+.social-media-images{
+    height: 20px;
+    width: 22px;
+}

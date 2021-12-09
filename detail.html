@@ -5,17 +5,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/detail.css">
     <title>Detail</title>
 </head>
 
 <body>
     <div id="main-div">
-        <div id="header">
-           <a href="index.html"><img src="assests\images\logo.png" alt="logo" height="200px" width="150px"></a>
-            <a href="login.html" target="_blank">Login</a>
-        </div>
+        <header>
+            <a href="index.html"><img src="assests\images\logo.png" alt="logo" class="logo"></a>
+            <a href="login.html" target="_self">Login</a>
+        </header>
         <div id="content">
-            <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
+            <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
+                class="hotel-image">
             <div>
                 <form action="payment.html" method="get">
                     <div>
@@ -37,7 +39,7 @@
                     <div>
                         <label>Total:</label>
                         <input type="text" name="price" readonly>
-                    
+
                     </div>
                     <button type="submit">Book Now</button>
                 </form>
@@ -57,22 +59,22 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias architecto voluptatem accusamus nam
                 atque in! Nam quis aperiam harum commodi.</p>
         </div>
-        <div id="footer">
+        <footer>
             <div>
-                <a href="contact.html" target="_blank">Contact us</a>
+                <a href="contact.html" target="_self">Contact us</a>
             </div>
             <div>
-                <a href="https://www.facebook.com" target="_blank"><img src="assests/images/facebook.png" height="20px"
-                        width="22px"></a>
+                <a href="https://www.facebook.com" target="_blank"><img src="assests/images/facebook.png"
+                        class="social-media-images"></a>
                 <a href="https://www.instagram.com" target="_blank"><img src="assests/images/instagram.png"
-                        height="20px" width="22px"></a>
-                <a href="https://twitter.com" target="_blank"> <img src="assests/images/twitter.png" height="20px"
-                        width="22px"></a>
+                        class="social-media-images"></a>
+                <a href="https://twitter.com" target="_blank"> <img src="assests/images/twitter.png"
+                        class="social-media-images"></a>
             </div>
             <div>
                 &copy; 2020 ROOM SEARCH PVT LTD
             </div>
-        </div>
+        </footer>
     </div>
 
 </body>
