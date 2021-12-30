@@ -1,135 +1,60 @@
-
-body
-{
-    margin: 0%;
-    background-color: #e0e0e0;
-    font-family:'Ubuntu', sans-serif;
-}
-header
-{
-    background-color: rosybrown;
-    font-family: 'Ubuntu' sans-serif;
-    width: 100%;
-    display: flex;
-    position: absolute;
-    justify-content: space-between;
-    align-items: center;
-    text-align: justify;
-    position: sticky;
-    top: 0;
-}
-
-    #login{
-        float:right;
-        margin-top: 12px;
-        margin-right: 20px;
-    }
-a
-{
-    text-decoration: none;
-    color: black;
-}
-
-#logo
-{
-    border-radius: 100%;
-    height: 60px;
-    width: 60px;
-}
-#content
-{
-    margin-left: 4%;
-    margin-right: 4%;
-}
-#Description
-{
-    margin-top: 1%;
-    margin-bottom: 3%;
-}
-form
-{
-    margin-bottom: 1%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    justify-content: space-between;
-    border: 1;
-}
-.social-Img
-{
-    height: 20px;
-    width: 22px;
-}
-#Radison
-{
-    max-height: 350px;
-    width: 500px;
-    margin: 2% 0;
-}input[type=text] input[type=date]
-{
-    width:60%;
-    margin-right: 5%;
-}
-h4
-{
-    font-family: cursive;
-}
-#hotel-Registration
-{
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    flex-wrap: wrap;
+#slideshow-container, #booking-form {
+    padding: 1%;
+    text-align: center;
     border: 1px solid black;
-    margin-top: 2%;
     max-height: 400px;
 }
-.form-element{
+#slideshow-container {
+    margin-left: 2% ;
+    border-right: none;
+    flex-grow: 3;
+    max-width: 60%;
+}
+#booking-form {
+    margin-right: 2%;
+    flex-grow: 1;
+}
+#hotel-description {
+    margin: 2%;
+}
+#detail-container {
+    margin-top:7%;
     margin-bottom: 7%;
-    vertical-align: middle;
 }
-.form-element:first-child
-{
-    margin-top: 30px;
-}
-#Form-register{
+#slideshow-booking {
     display: flex;
-    flex-direction: row;
+    justify-content: start;
+    align-content: center;
+}
+.slider-image {
+    max-height: 350px;
+}
+.outer {
+    padding: 3%;
+    display: flex;
     justify-content: space-between;
-    border-left: 1px solid black;
 }
-#button1
-{
-  margin: 0 35% ;
-    padding: 2% ;
+#book-now {
+    margin-top: 5%;
 }
-label
-{
-    display: inline-block;
-    width: 150px;
-    margin-left: 20px;
+.inner {
+    width: 60%;
 }
-footer
-{
-    background-color: rosybrown;
-    font-family:'Ubuntu' sans-serif;
-    width: 100%;
-    position: sticky;
-    bottom: 0;
-    /* display: flex;
-    justify-content: space-between; */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-image: none;
 }
-#social-container
+.carousel-control-next-icon:after
 {
-    margin-top: 20px;
-    margin-right: 10px;
+  content: '>';
+  font-size: 55px;
+  color: rosybrown;
 }
-#contactUs
-{
-    margin-top: 20px;
-    margin-left: 10px;
-}
-#Copyright
-{
-    margin: 20px;
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: rosybrown;
 }
