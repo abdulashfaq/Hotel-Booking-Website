@@ -1,43 +1,97 @@
-html,body{
-    width: 100%;
+body{
     height: 100%;
-    margin: 0px;
+    width: 100%;
+    /* margin: 0px; */
+    margin: 0%;
     background-color: #e0e0e0;
+    font-family: 'Ubuntu',sans-serif;
 }
-#main-div{
-    height: 100%;
+.main-div{
+ height: 100%;
+ width: 100%;
+}
+ .logo{
+     border-radius: 100%;
+     height: 60px;
+     width: 60px;
+ }
+ .img-places{
+     height: 150px;
+     width: 150px;
+     padding: 4%;
+     border-radius: 25%;
+ }
+ .socialmedia-img{
+     height: 20px;
+     width: 22px;
+ }
+ header{
+     background-color: rosybrown;
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top:0;
     width: 100%;
-}
-.logo
-{
-    height: 60px;
-    width: 60px;
-    border-radius: 100%;
-}
-.city-images{
-    height: 150px;
-    width: 150px;
-    padding: 4%;
-    border-radius: 25%;
-}
-.social-media-images{
-    height: 20px;
-    width: 22px;
-}
-header{
+    position:sticky;
+
+ }
+ footer{
     background-color: rosybrown;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position:sticky;
+    bottom: 0;
+    font-family: 'Ubuntu',sans-serif;
 }
-footer{
-    background-color: rosybrown;
+ .search{
+     background-image: url(https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     height: 380px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     
+ }
+ .cities-img{
+     margin-left: 15%;
+     margin-right: 15%;
+ }
+ .login{
+     color: black;
+     text-decoration: none;
+     margin-right: 2%;
 }
-.search{
-    background-image: url(https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 380px;
+.searchbar{
+background-color: #f1f1f1;
+border: 1px solid transparent;
+padding: 10px;
+font-size: 16px;
+border-radius: 12px;
+/* width: 100%; */ 
 }
-.place-img{
-    margin-left: 15%;
-    margin-right: 15%;
+ #copyright{
+margin-top: 50px;
+}
+#contactus{
+margin-top: 20px;
+margin-left:2%;
+}
+
+#contact-us{
+    color: black;
+    text-decoration: none;  
+}
+#socialicon{
+    margin-top: 20px;
+    margin-right: 2%;
+}
+#viewmore{
+    /* text-align: center; */
+    text-decoration: none;
+}
+.view-more{
+    text-align: center;
 }
